@@ -1,0 +1,92 @@
+# Sales Performance Analysis – Power BI Project
+
+## 👋 About This Project
+This is an end-to-end **Sales Analysis Dashboard** that I built in Power BI.  
+The goal was to explore a sales dataset and answer common business questions around revenue, profit, discounts, and customer purchase patterns.
+
+This report gives a clear picture of:
+- What’s selling well (and what isn’t)
+- How sales change over time
+- Which products or cities bring the most value
+- How discounts impact profit
+- Order-level insights for deeper analysis
+
+---
+
+## 🎯 What This Dashboard Can Answer
+
+Here are the exact questions I designed the report for:
+
+1. **Top/Bottom 5 products** based on **Sales, Profit, and Quantity Sold**
+2. How **sales trends** change over time (daily, monthly, quarterly, yearly)
+3. Relationship between **Sales & Profit**
+4. Compare **two time periods** (ex: this month vs last month)
+5. Average **discount** offered in each category
+6. **Total number of orders**
+7. Order-level view showing Sales, Profit, Discount, Net Sales, and more  
+   (with filters for Product, Date, Customer ID, Promotion Category)
+8. Sales performance **across different cities**
+
+---
+
+## 📂 Dataset (Simple Explanation)
+The dataset contains order-level sales information.  
+Some important fields include:
+
+- Order Date  
+- Product Name / Product ID  
+- Customer ID  
+- City  
+- Quantity Sold  
+- Sales & Profit  
+- Discounts  
+- Promotion / Discount Category  
+
+I cleaned and transformed the data in **Power Query**, built a star-schema data model, and created DAX measures for all key KPIs.
+
+---
+
+## 📊 Highlights of the Dashboard
+
+### 🔝 1. Top & Bottom Products  
+Bar charts show the best-selling and least-selling products by:
+- Sales  
+- Profit  
+- Quantity Sold  
+
+### 📆 2. Sales Trends  
+Line charts for sales over:
+- Day  
+- Month  
+- Quarter  
+- Year  
+
+Useful for spotting seasonality or spikes.
+
+### 📈 3. Sales vs Profit  
+A simple scatter chart to understand:
+- Are high-sales products also profitable?
+- Which ones are dragging profits down?
+
+### 🔄 4. Period-to-Period Comparison  
+Users can select two different date ranges and compare:
+- Sales  
+- Profit  
+- Quantity  
+
+### 💸 5. Discount Insights  
+Shows the **average discount** given in each category, helping understand the impact of promotions.
+
+### 🧾 6. Total Orders  
+A KPI card showing the full count of orders.
+
+### 📑 7. Order-Level Detail  
+A powerful table where users can:
+- Drill into each order  
+- View Net Sales, Discounts, Profit  
+- Filter by product, date, customer, or promotion category
+
+### 🏙 8. Sales by City  
+Visual showing which cities perform better in terms of sales.
+
+
