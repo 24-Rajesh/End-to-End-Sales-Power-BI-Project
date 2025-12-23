@@ -1,98 +1,56 @@
- End to End Sales #Power-BI-Project
+About the Project
 
-# Sales Performance Analysis – Power BI Project
+This is an end-to-end Sales Performance Dashboard built in Power BI to analyze revenue, profit, discounts, and customer purchase behavior.
+The focus of this project was to answer real business questions using clear visuals and meaningful KPIs.
 
-## 👋 About This Project
-This is an end-to-end **Sales Analysis Dashboard** that I built in Power BI.  
-The goal was to explore a sales dataset and answer common business questions around revenue, profit, discounts, and customer purchase patterns.
+The dashboard helps understand:
 
-This report gives a clear picture of:
-- What’s selling well (and what isn’t)
-- How sales change over time
-- Which products or cities bring the most value
-- How discounts impact profit
-- Order-level insights for deeper analysis
+What products and cities perform best
 
----
+How sales and profit change over time
 
-## 🎯 What This Dashboard Can Answer
+The impact of discounts on profitability
 
-Here are the exact questions I designed the report for:
+Order-level performance for deeper analysis
 
-1. **Top/Bottom 5 products** based on **Sales, Profit, and Quantity Sold**
-2. How **sales trends** change over time (daily, monthly, quarterly, yearly)
-3. Relationship between **Sales & Profit**
-4. Compare **two time periods** (ex: this month vs last month)
-5. Average **discount** offered in each category
-6. **Total number of orders**
-7. Order-level view showing Sales, Profit, Discount, Net Sales, and more  
-   (with filters for Product, Date, Customer ID, Promotion Category)
-8. Sales performance **across different cities**
+Key Business Questions Answered
 
----
+Top & bottom 5 products by Sales, Profit, and Quantity
 
-## 📂 Dataset (Simple Explanation)
-The dataset contains order-level sales information.  
-Some important fields include:
+Sales trends across day, month, quarter, and year
 
-- Order Date  
-- Product Name / Product ID  
-- Customer ID  
-- City  
-- Quantity Sold  
-- Sales & Profit  
-- Discounts  
-- Promotion / Discount Category  
+Relationship between Sales and Profit
 
-I cleaned and transformed the data in **Power Query**, built a star-schema data model, and created DAX measures for all key KPIs.
+Comparison between two selected time periods
 
----
+Average discount by category
 
-## 📊 Highlights of the Dashboard
+Total number of orders
 
-### 🔝 1. Top & Bottom Products  
-Bar charts show the best-selling and least-selling products by:
-- Sales  
-- Profit  
-- Quantity Sold  
+Detailed order-level view with filters (product, date, customer, promotion)
 
-### 📆 2. Sales Trends  
-Line charts for sales over:
-- Day  
-- Month  
-- Quarter  
-- Year  
+Sales performance across different cities
 
-Useful for spotting seasonality or spikes.
+Dataset & Modeling
 
-### 📈 3. Sales vs Profit  
-A simple scatter chart to understand:
-- Are high-sales products also profitable?
-- Which ones are dragging profits down?
+The dataset contains order-level sales data including:
+Order Date, Product, Customer, City, Quantity, Sales, Profit, Discounts, and Promotion category.
 
-### 🔄 4. Period-to-Period Comparison  
-Users can select two different date ranges and compare:
-- Sales  
-- Profit  
-- Quantity  
+Data cleaning and transformation were done using Power Query.
+A star schema data model was created, and all KPIs were calculated using DAX measures.
 
-### 💸 5. Discount Insights  
-Shows the **average discount** given in each category, helping understand the impact of promotions.
+Dashboard Overview
 
-### 🧾 6. Total Orders  
-A KPI card showing the full count of orders.
+Bar charts for top/bottom product performance
 
-### 📑 7. Order-Level Detail  
-A powerful table where users can:
-- Drill into each order  
-- View Net Sales, Discounts, Profit  
-- Filter by product, date, customer, or promotion category
+Line charts to track sales trends over time
 
-### 🏙 8. Sales by City  
-Visual showing which cities perform better in terms of sales.
+Scatter plot to compare sales vs profit
 
----
+KPI cards for total orders
 
+Interactive table for detailed order analysis
 
+City-wise sales performance visuals
 
-
+Tools Used: Power BI, Power Query, DAX
